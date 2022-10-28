@@ -29,7 +29,7 @@ public class UrinalsTest {
 	@Test
 	void test4() {
 		Urinals urinals = new Urinals();
-		String str = "0000";
+		String str = "1000";
 		int res = urinals.countUrinals(str);
 		assertEquals(2, res);
 	}
